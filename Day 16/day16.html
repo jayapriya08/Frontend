@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container"></div>
+    <script>
+
+
+        let data=['html','css','js','bootstrap','react']
+
+        let parent=document.getElementById('container')
+        let output=data.map((val)=>{
+            parent.innerHTML+=`<h1>${val}</h1>`
+        })
+        </script>
+</body>
+
+</html>
